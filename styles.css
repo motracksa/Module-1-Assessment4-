@@ -1,0 +1,78 @@
+#menu{
+      width:100%;
+      height:40px;
+      background-color: #ddd;
+      padding-top: 12px;
+}
+
+#menu a{
+      color:#ffffff;
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      text-decoration:none;
+      font-weight: 800px;
+      
+      padding-left: 20px;
+      padding-right: 20px;
+}
+
+#menu a:hover{
+       color: #df6c00;
+}
+
+body {
+    background-image: url('images/marvel.jpeg');
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 30px 0;
+}
+
+h1 {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 40px;
+    color: whitesmoke;
+    padding-bottom: 10px;
+}
+
+.table-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+.table-container th,
+.table-container td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #fff;
+    color: black;
+    font-family: 'Arial Black', sans-serif;
+}
+
+.table-container th {
+    background-color: #ddd;
+}
+
+.table-container tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-container tr:hover {
+    background-color: #ddd;
+}
+
+.table-container th:hover {
+    background-color: #fff;
+}
